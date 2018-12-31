@@ -166,3 +166,8 @@ DEFAULT_FROM_EMAIL = 'larry.ochsner@gmail.com'
 SERVER_EMAIL = 'larry.ochsner@gmail.com'
 '''
 # App password jzgjvtkygmewrgzs   password 8tors01Pegpigleg00OOrory 
+
+try:
+    from .local_settings import *
+except ImportError:
+    pass
