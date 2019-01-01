@@ -144,28 +144,8 @@ MESSAGE_TAGS = {
 
 # Email config
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-'''
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 587
-EMAIL_HOST_USER='larry.ochsner@gmail.com'
-EMAIL_HOST_PASSWORD='jzgjvtkygmewrgzs'
-EMAIL_USE_TLS=True
-'''
-
-'''
-EMAIL_BACKEND = 'bandit.backends.smtp.HijackSMTPBackend'
-BANDIT_EMAIL = 'larry.ochsner@gmail.com'
 
 
-EMAIL_USE_TLS = True
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = 465    # 587
-EMAIL_HOST_USER = 'larry.ochsner@gmail.com'
-EMAIL_HOST_PASSWORD = 'jzgjvtkygmewrgzs'
-DEFAULT_FROM_EMAIL = 'larry.ochsner@gmail.com'
-#EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-SERVER_EMAIL = 'larry.ochsner@gmail.com'
-'''
 # App password jzgjvtkygmewrgzs   password 8tors01Pegpigleg00OOrory 
 
 try:
